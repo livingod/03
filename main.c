@@ -4,14 +4,18 @@
 int main(int argc, char *argv[])
 {
     char c;
+    char b;
     int i;
+    int j; 
     
-    printf("input a number: ");
-    scanf("%c", &c);
+    printf("enter a character: ");
+    scanf("%c",&c);
     
-    i = c - '0';
-    printf("The input number is %i\n",i);
-  
+    b = c + 1;
+    i = c + 1;
+    j = c;
+    printf("the next character of %c (%i) is %c (%i)\n", c,j,b,i);
+    
   system("PAUSE");	
   return 0;
 }
